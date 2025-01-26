@@ -1,0 +1,82 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, sans-serif;
+    
+    
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+  
+  /* Navbar Section */
+  .navbar {
+    background-color: mediumvioletred;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 5rem 1rem;
+  }
+  
+  .hero h1 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Cards Section */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 1rem;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Bonus Section */
+  .bonus {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
